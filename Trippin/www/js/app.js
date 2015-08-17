@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('Trippin', ['ionic','app.services'])
+angular.module('Trippin', ['ionic','app.controllers','app.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -19,26 +19,38 @@ angular.module('Trippin', ['ionic','app.services'])
 })
 .config(["$stateProvider","$urlRouterProvider",function($stateProvider,$urlRouterProvider){
   $stateProvider.state("tabs",{
-    url:"/tabs",
+    url:"/home",
     abstract:true,
     templateUrl:"/partials/tabs.html"
   })
-  .state("tabs.countries",{
-    url:"/countries",
+  .state("tabs.destinations",{
+    url:"/destinations",
     views:{
-      "Countries":{
-        templateUrl:"/partials/countries.html",
+      "Destinations":{
+        templateUrl:"/partials/destinations.html",
         resolve:{
           data:function(DataService){
             return DataService;
           }
         },
         controller:function($scope,data){
-          console.log(data);
+          $scope.data = data.data;
         }
       }
     }
-  });
-  
-  $urlRouterProvider.otherwise("/tabs/countries");
+  })
+  .state("tabs.city",{
+    url:"/destinations/:city",
+    views:{
+      "Destinations":{
+        templateUrl:"/partials/city.html",
+        controller:function($scope,$stateParams){
+          $scope.city = {};
+          $scope.city.name = $stateParams.city;
+          
+        }
+      }
+    }
+  })
+  $urlRouterProvider.otherwise("/home/destinations");
 }])

@@ -1,0 +1,11 @@
+<ion-view view-title="Destinations" ng-controller="DestinationsCtrl">
+  <ion-content class="padding">
+    <ion-list ng-repeat="country in data|orderBy:'country'" class="padding">
+      <ion-item class="item-divider item-dark">
+        {{country.country}}
+      </ion-item>
+      <ion-item class="item-light" ng-repeat="city in country.cities|orderBy:'name'" ng-href="#/home/destinations/{{city.name}}">{{city.name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

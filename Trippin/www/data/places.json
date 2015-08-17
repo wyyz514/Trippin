@@ -1,8 +1,9 @@
 [
     {
         "country": "France",
-        "cities": {
-            "Marseille": {
+        "cities": [
+            {
+                "name": "Marseille",
                 "sights": [
                     {
                         "name": "Les Calanques",
@@ -26,7 +27,8 @@
                     }
                 ]
             },
-            "Bordeaux": {
+            {
+                "name": "Bordeaux",
                 "sights": [
                     {
                         "name": "Place de la Bourse",
@@ -50,12 +52,13 @@
                     }
                 ]
             }
-        }
+        ]
     },
     {
         "country": "Thailand",
-        "cities": {
-            "Islands": {
+        "cities": [
+            {
+                "name": "Islands",
                 "sights": [
                     {
                         "name": "Ko Phi Phi",
@@ -79,12 +82,13 @@
                     }
                 ]
             }
-        }
+        ]
     },
     {
         "country": "Japan",
-        "cities": {
-            "Kyoto": {
+        "cities": [
+            {
+                "name": "Kyoto",
                 "sights": [
                     {
                         "name": "Kiyomizu-dera",
@@ -103,7 +107,8 @@
                     }
                 ]
             },
-            "Tokyo": {
+            {
+                "name": "Tokyo",
                 "sights": [
                     {
                         "name": "Tokyo Dome",
@@ -122,6 +127,6 @@
                     }
                 ]
             }
-        }
+        ]
     }
 ]
