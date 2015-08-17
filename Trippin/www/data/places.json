@@ -1,0 +1,127 @@
+[
+    {
+        "country": "France",
+        "cities": {
+            "Marseille": {
+                "sights": [
+                    {
+                        "name": "Les Calanques",
+                        "image": "http://resources.touropia.com/gfx/d/things-to-do-in-marseille/les_calanques.jpg",
+                        "description": "Les Calanques are a series of miniature fjords to the south of Marseille near Cassis. The narrow inlets are encased in steep walls made of limestone or dolomite, and are highly scenic. Hiking even a portion of the rocky cliffs above the Mediterranean Sea and its fjords can take a day, with foot access restricted in summer due to extreme heat, while cruising through the inlets can be done in a couple of hours. Samna, south of Marseille, is considered a must-see calanque; it has a rocky beach and is popular with scuba divers."
+                    },
+                    {
+                        "name": "Notre Dame de la Garde",
+                        "image": "http://resources.touropia.com/gfx/d/things-to-do-in-marseille/notre_dame_de_la_garde.jpg",
+                        "description": "An observation post has sat atop Garde Hill since the 15th century. It was followed by a fort, which later served as the foundation for the basilica of Notre Dame de la Garde. Today, a large statue of the Virgin Mary sits atop the bell tower watching over sailors, fishermen and this port city; it is one of Marseille’ landmarks. A sanctuary inside the church is also devoted to the Virgin Mary, whose feast day is celebrated August 5. The basilica is a popular destination for pilgrims."
+                    },
+                    {
+                        "name": "Chateaud d'If",
+                        "image": "http://resources.touropia.com/gfx/d/historic-and-famous-prisons/chateau_dif.jpg",
+                        "description": "Château d’If is an island fortress in the Mediterranean Sea offshore from Marseille, about two miles from the Old Port. The fortifications take up pretty much the island of If. It was built in 1524 to defend Marseille from invaders approaching from the sea. It was successful at doing this. Which is a good thing since the fortress, with its many gun platforms, was shoddily built. The chateau later housed political prisoners; it is most famous as a setting for the 19th century novel “The Count of Monte Cristo”, written by Alexander Dumas. Travelers can reach it via boat from Marseille."
+                    },
+                    {
+                        "name": "MuCEM",
+                        "image": "http://farm6.static.flickr.com/5466/9493741175_b41a3af863_b.jpg",
+                        "description": "The MuCEM, formally known as the Musée des Civilisations de l’Europe, is devoted to the history and culture of Europe and the Mediterranean Sea from Beirut to Gibraltar. Indeed, it is built on land reclaimed from the sea. It is located next to Fort Saint Jean and opened in 2013 when Marseille was named a European Capital of Culture. The museum’s uber contemporary building represents modern Marseille. Visitors say exhibits could be somewhat better organized in how they display important artifacts and paintings."
+                    }
+                ]
+            },
+            "Bordeaux": {
+                "sights": [
+                    {
+                        "name": "Place de la Bourse",
+                        "image": "http://resources.touropia.com/gfx/d/things-to-do-in-bordeaux/place_de_la_bourse.jpg",
+                        "description": "No visit to Bordeaux is complete without a visit to the city’s most famous square. The Place de la Bourse has been a symbol of Bordeaux since its creation in the early 1700s. Conceived by Jacques Gabriel, architect to King Louis XV, the open design of the plaza represented the end of the walled cities of the Medieval Era. Rimmed with elegant 18th-century buildings on three sides, the square was originally separated from the Garonne River by railings. Today, a shallow water feature known as the Miroir d’Eau marks the boundary between square and stream."
+                    },
+                    {
+                        "name": "Grande Theatre de Bordeaux",
+                        "image": "http://resources.touropia.com/gfx/d/things-to-do-in-bordeaux/grand_theatre_de_bordeaux.jpg",
+                        "description": "Designed by renowned architect Victor Louis, the 18th-century Grand Théâtre is Bordeaux’s star cultural attraction. Its neoclassical exterior with its parade of Corinthian columns lets visitors know they are about to enter a temple dedicated to the performing arts. Inside is a grand foyer adorned with marble statues that leads to stunning blue and gold hall decorated with frescoes and a massive crystal chandelier. Opened in 1780 and restored in 1991, the theater is home to the Opéra National de Bordeaux. The theatre where Marius Petipa once staged ballets in the 1840s also plays host to the Ballet National de Bordeaux."
+                    },
+                    {
+                        "name": "Bordeaux Cathedral",
+                        "image": "http://resources.touropia.com/gfx/d/things-to-do-in-bordeaux/bordeaux_cathedral.jpg",
+                        "description": "Best known as the place where a 13-year-old Eleanor of Aquitaine married Louis VII, the Cathédrale Saint-André de Bordeaux is located in the southern section of the city’s historic district. While only one wall of the original 11th-century nave remains, the cathedral’s soaring arches, intricately sculpted wood organ, stone-carved façade and separate bell tower are well worth a visit. As of 2015, the cathedral is also home to a collection of religious artifacts bequeathed to the state by the late Canon Marcadé. It includes 42 illuminated manuscripts made between the 14th and 16th century."
+                    },
+                    {
+                        "name": "Pont de Pierre",
+                        "image": "http://resources.touropia.com/gfx/d/things-to-do-in-bordeaux/pont_de_pierre.jpg",
+                        "description": "The oldest bridge in Bordeaux, the Pont de Pierre was built during the early 1800s under the orders of Napoleon Bonaparte. The bridge’s 17 arches were intended to represent the 17 letters of the emperor’s name. Each of the spans is marked with a white medallion in honor of Napoleon as well. The strong currents of the Garonne River make bridge building in Bordeaux challenging, and the Pont de Pierre served as the city’s only bridge until 1965. The stone bridge offers wonderful views of Bordeaux’s newly revamped quayside."
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "country": "Thailand",
+        "cities": {
+            "Islands": {
+                "sights": [
+                    {
+                        "name": "Ko Phi Phi",
+                        "image": "http://farm7.static.flickr.com/6011/5951595261_951c898750_b.jpg",
+                        "description": "Ko Phi Phi is a small archipelago in the Krabi Province in Southern Thailand. Ko Phi Phi Don is the largest island of the group, and is the only island with permanent inhabitants while the smaller Ko Phi Phi Leh is famous as the filming location for the 2000 movie “The Beach”. Ko Phi Phi was severely hit by the Indian Ocean tsunami of December 2004, when nearly all of the island’s infrastructure was destroyed. Redevelopment has, however, been swift, and services are back with building regulations in place to limit the height of new hotels and other buildings to preserve the island’s stunning views."
+                    },
+                    {
+                        "name": "Ko Lipe",
+                        "image": "http://resources.touropia.com/gfx/d/best-islands-in-thailand/ko_lipe.jpg",
+                        "description": "Settled by sea gypsies, Ko Lipe is located in the Adang-Rawi Archipelago in southwest Thailand. It is a small island and visitors can walk around the island in little over an hour. Ko Lipe is just outside the jurisdiction of Tarutao National Park, and as such is exempt from certain laws prohibiting development. Its three main beaches have plenty of accommodations ranging from grass huts to air-conditioned bungalows."
+                    },
+                    {
+                        "name": "Ko Samet",
+                        "image": "http://resources.touropia.com/gfx/d/best-islands-in-thailand/ko_samet.jpg",
+                        "description": "Ko Samet is known for being a favorite respite from the bustle of Bangkok. Though the majority of the island is a national park, there are a number of vacation spots located there with different amenities depending on the type of experience sought. One of the great attractions of Ko Samet are its white sand beaches. Visitors can choose from peaceful and relaxing settings or popular beaches with lots of activities. Ao Noina, Ao Phutsa, Au Nuan, and Ao Wai are known for being more serene, and feature cozy accommodations and stunning sunset views. Hat Sai Kaeo and Ao Hin Khok are busier, and visitors to these beaches frequently come to sunbathe, swim, windsurf, or enjoy nightlife."
+                    },
+                    {
+                        "name": "Ko Phangan",
+                        "image": "http://resources.touropia.com/gfx/d/best-islands-in-thailand/ko_phangan.jpg",
+                        "description": "Ko Phangan is an island in the Gulf of Thailand, halfway between the islands of Ko Samui and Ko Tao. It is a famous destination for the backpacking community, who come to immerse themselves in the island’s natural beauty including rainforests and beaches. Every year the island holds an electronic dance festival known as the Full Moon Party. Those tourists who would like a more serene getaway are keen to visit Ko Pha Ngan’s numerous Buddhist temples. The island is also known for its spas and meditation retreats."
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "country": "Japan",
+        "cities": {
+            "Kyoto": {
+                "sights": [
+                    {
+                        "name": "Kiyomizu-dera",
+                        "image": "http://farm5.static.flickr.com/4086/4846071018_9848f0435e_b.jpg",
+                        "description": "The Kiyomizu-dera Buddhist temple is located in Eastern Kyoto and can be traced back as far as the year 798. An indoor waterfall fed from the outside river keeps the temple in harmony with nature and not one nail was used in construction. While locals used to jump off the edge to have a wish granted (with a survival rate of 85.4%), modern visitors can enjoy the shrines and talismans and artwork on display without risking life and limb."
+                    },
+                    {
+                        "name": "The National Museum of Modern Art",
+                        "image": "http://www.asiaexplorers.com/pics/heian-shrine_kyoto.jpg",
+                        "description": "The National Museum of Modern Art, Kyoto (MOMAK) was opened to the public on October 26, 1986 with a total floor area of 9,761.99㎡ and an exhibition area of 2,604.94㎡.MOMAK is a national institution devoted to the collection and preservation of artworks and related reference materials of the twentieth century in Japan and other parts of the world. Particular emphasis is placed on artists or artistic movements in Kyoto and the Kansai area (the western region of Japan), such as Japanese-style paintings of the Kyoto School, with an overview of the mainstreams of Japanese modern art and craft movements as well as works from all over the world covering every genre of the crafts. The Collection Gallery is comprised special themed sub-exhibitions that are synchronized with concurrent exhibitions or presents the Museum's research results. It also acts as a site for workshops and other educational programs organized by the Museum."
+                    },
+                    {
+                        "name": "Kyoto International Manga Museum",
+                        "image": "http://www.nippon.com/en/files/b00801_ph01.jpg",
+                        "description": "This is the Japan's first museum devoted to manga. It offers a stunning array of materials with everything from 19th-century Japanese magazines and books to popular contemporary works from Japan and abroad. The museum carries roughly 200,000 manga and manga-related materials including survey research. Special exhibitions are also held here. In addition, the museum serves as a library. Visitors may also want to stop by the museum shop and coffee house.Built in 1929, the manga museum building was originally used as an elementary school and still retains something of that appearance."
+                    }
+                ]
+            },
+            "Tokyo": {
+                "sights": [
+                    {
+                        "name": "Tokyo Dome",
+                        "image": "https://c2.staticflickr.com/2/1090/4730344693_e7c5e49fbc_b.jpg",
+                        "description": "Tokyo Dome, the symbol of Tokyo Dome City, is an all-weather multipurpose stadium where a variety of events are being staged throughout the year, including baseball games, domestic and international sporting events, exhibitions and concerts. As the baseball stadium, it is a home to the Tokyo Yomiuri Giants, and a venue for a number of major events in the history of professional baseball in Japan. Exibitions, concerts and other entertainment events draw large crowd."
+                    },
+                    {
+                        "name": "Tokyo Skytree",
+                        "image": "http://www.japan-guide.com/g7/3064_01.jpg",
+                        "description": "The Tokyo Skytree is a new television broadcasting tower and landmark of Tokyo. It is the centerpiece of the Tokyo Skytree Town in the Sumida City Ward, not far away from Asakusa. With a height of 634 meters (634 can be read as \"Musashi\", a historic name of the Tokyo Region), it is the tallest building in Japan and the second tallest structure in the world at the time of its completion. A large shopping complex with aquarium is located at its base."
+                    },
+                    {
+                        "name": "Tokyo Imperial Palace",
+                        "image": "http://www.japan-guide.com/g2/3017_01.jpg",
+                        "description": "The current Imperial Palace (皇居, Kōkyo) is located on the former site of Edo Castle, a large park area surrounded by moats and massive stone walls in the center of Tokyo, a short walk from Tokyo Station. It is the residence of Japan's Imperial Family."
+                    }
+                ]
+            }
+        }
+    }
+]
