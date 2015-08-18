@@ -35,6 +35,7 @@ angular.module('Trippin', ['ionic','app.controllers','app.services'])
         },
         controller:function($scope,data){
           $scope.data = data.data;
+          console.log(data.data);
         }
       }
     }
@@ -50,15 +51,22 @@ angular.module('Trippin', ['ionic','app.controllers','app.services'])
           }
         },
  controller:function($scope,$stateParams,countries){
-          countries.data.forEach(function(country){
-            country.cities.forEach(function(city){
-              if(city.name == $stateParams.city)
-                $scope.city = city;
-            });
-          });
-        }
+    var countries = countries.data;
+    function getCity(c)
+    {
+      return countries.reduce(function(ct,country){
+        country.cities.forEach(function(city){
+          if(ct !== {})
+            ct = city.name == c? city : ct;
+        });
+        return ct;
+      },{});
+    }
+   
+    $scope.city = getCity($stateParams.city);
+  }
       }
     }
-  })
+  });
  $urlRouterProvider.otherwise("/home/destinations");
 }])
