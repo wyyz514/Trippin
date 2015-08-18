@@ -44,13 +44,21 @@ angular.module('Trippin', ['ionic','app.controllers','app.services'])
     views:{
       "Destinations":{
         templateUrl:"/partials/city.html",
-        controller:function($scope,$stateParams){
-          $scope.city = {};
-          $scope.city.name = $stateParams.city;
-          
+        resolve:{
+          countries:function(DataService){
+            return DataService;
+          }
+        },
+ controller:function($scope,$stateParams,countries){
+          countries.data.forEach(function(country){
+            country.cities.forEach(function(city){
+              if(city.name == $stateParams.city)
+                $scope.city = city;
+            });
+          });
         }
       }
     }
   })
-  $urlRouterProvider.otherwise("/home/destinations");
+ $urlRouterProvider.otherwise("/home/destinations");
 }])

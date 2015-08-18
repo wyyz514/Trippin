@@ -1,3 +1,15 @@
 <ion-view view-title="{{city.name}}">
-  <h2>{{city.name}}</h2>
+  <ion-content class="has-header padding">
+    <ion-list class="padding" ng-repeat="sight in city.sights">
+      <ion-item class="item-divider item-light">
+        {{sight.name}}
+      </ion-item>
+      <ion-item class="item-image">
+        <img ng-src="{{sight.image}}">
+      </ion-item>
+      <ion-item>
+        {{sight.description}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
 </ion-view>
