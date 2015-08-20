@@ -1,6 +1,6 @@
 <ion-view view-title="Destinations" ng-controller="DestinationsCtrl">
   <ion-content class="padding">
-    <ion-list ng-repeat="country in data|orderBy:'country'" class="padding">
+    <ion-list ng-repeat="country in countries|orderBy:'country'" class="padding">
       <ion-item class="item-divider item-dark">
         {{country.country}}
       </ion-item>
