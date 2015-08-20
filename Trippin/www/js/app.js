@@ -29,13 +29,12 @@ angular.module('Trippin', ['ionic','app.controllers','app.services'])
       "Destinations":{
         templateUrl:"/partials/destinations.html",
         resolve:{
-          data:function(DataService){
-            return DataService;
+          countries:function(DataService){
+            return DataService.getDestinations();
           }
         },
-        controller:function($scope,data){
-          $scope.data = data.data;
-          console.log(data.data);
+        controller:function($scope,DataService,countries){
+          $scope.countries = countries.data;
         }
       }
     }
@@ -46,24 +45,12 @@ angular.module('Trippin', ['ionic','app.controllers','app.services'])
       "Destinations":{
         templateUrl:"/partials/city.html",
         resolve:{
-          countries:function(DataService){
-            return DataService;
+          city:function(DataService,$stateParams){
+            return DataService.getCity($stateParams.city);
           }
         },
- controller:function($scope,$stateParams,countries){
-    var countries = countries.data;
-    function getCity(c)
-    {
-      return countries.reduce(function(ct,country){
-        country.cities.forEach(function(city){
-          if(ct !== {})
-            ct = city.name == c? city : ct;
-        });
-        return ct;
-      },{});
-    }
-   
-    $scope.city = getCity($stateParams.city);
+ controller:function($scope,city){
+    $scope.city = city;
   }
       }
     }
