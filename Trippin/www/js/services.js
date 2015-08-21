@@ -51,4 +51,29 @@ angular.module("app.services",[])
       return defer.promise;
     }
   };
-}]);
+}])
+.service("FavoritesService",function(){
+  var favorites = [];
+  return {
+    save:function(city)
+    {
+      return favorites.push(city);
+    },
+    remove:function(city)
+    {
+      if(favorites.indexOf(city) > -1)
+      {
+        var i = favorites.indexOf(city);
+        return favorites.splice(i,1);
+      }
+      else
+      {
+        throw new Error("City was never one of your favorites.");
+        return "";
+      }
+    },
+    favorites:function(){
+      return favorites;
+    }
+  }
+});
