@@ -1,9 +1,9 @@
 <ion-view view-title="{{city.name}}" ng-controller="CityCtrl">
-  <ion-content class="has-header padding">
+  <ion-content class="has-header padding content-dark">
     <ion-list class="padding" ng-repeat="sight in city.sights">
       <ion-item class="item-divider item-light item-icon-right padding">
         {{sight.name}}
-        <button class="button icon button-icon ion-android-favorite"></button>
+        <button class="button icon button-icon ion-android-favorite" ng-click="toggleFavorite($event,sight)"></button>
       </ion-item>
       <ion-item class="item-image">
         <img ng-src="{{sight.image}}">
